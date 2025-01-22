@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #002B5B;
+    background-color: #F5F5F5;
+}
+header{
+    background: #002B5B;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.cursos article{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+.cursos img{
+    width: 35%;
+    height: auto;
+}
+.contacto form{
+    background: #F5F5F5;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+}
+.contacto input, .contacto textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+a{
+    color: #3dbe77;
+    text-decoration: none;
+}
+button, .cta{
+    background-color: #FF3B3F;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+footer{
+    background: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 600px){
+    .cursos img{
+        width: 100%;
+    }
+}
